@@ -1,0 +1,97 @@
+
+/*BOX-SIZING*/
+
+* {
+	box-sizing: border-box; 
+	margin: 0 auto;
+}
+
+/* CLEARFIX */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/*BAKCGROUND IMAGE */
+  
+html {
+	background-image:url(images/LOONCHOIR-bkg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	position: fixed;
+	top, bottom, left, right: -50%;	
+	z-index: 1;
+}
+@font-face {
+	font-family: 'news706';
+	src: url(fonts/news_706.ttf);
+	}
+@font-face {
+	font-family: 'comppro-webfont';
+	src: url(fonts/comppro-webfont.ttf);
+	font-weight:bold;
+	}
+
+h1 {
+	font-family: 'comppro-webfont', Helvetica;
+	font-size: 12em;
+	line-height: 0.85em;
+	color: #FFF;
+	text-align: center;
+	opacity: 0.85;
+	border: 5px solid #FFF;
+	padding: 5% 1%;
+	margin: 10% 10%;
+}
+
+p {
+	font-family: 'news706';
+	font-size: 25px;
+	color: #fff;
+}
+
+.navBar {
+	background-color: rgba(255, 255, 255, 0.25);
+	padding: 2%;
+	margin-top: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.navBar li {
+	display: inline;
+	padding: 0 5%;
+}
+
+.navBar li a {
+	font-family: 'news706', sans-serif;
+	color: #fff;
+	font-size: 1.35rem;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navBar li a:hover {
+	color: #C20027;
+	border-bottom: 1px solid #C20027;
+}
+
+.wrapper {
+	max-width: 75%;
+	background-color: #C20027;
+	padding: 5% 0 25% 0;
+}
+
+

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+	
+	<title>LOON CHOIR</title>
+	<meta charset="utf-8">
+	
+	<link rel="stylesheet" type="text/css" href="week2-finalproject1.css">
+	<link href='GOOGLE FONTS' rel='stylesheet' type='text/css'>
+	<link rel="icon" type=" FAV ICON HERE " href=" LINK HERE">
+
+	
+</head>
+
+<html>
+
+	<ul class="navBar">
+		<li><a href="https://www.facebook.com/loonchoirmusic">about</a></li>
+			<ul>
+				<li><a href=" xx"> facebook</a></li>
+				<li><a href=" xx"> twitter </a></li>
+				<li><a href=" xx ">cbc music</a></li>
+			</ul>
+		<li><a href="tour.html">tour</a></li>
+		<li><a href="music.html">music</a></li>
+		<li><a href="contact.html">contact</a></li>
+	</ul>
+	
+	<h1>LOON CHOIR</h1>
+	<h2>we're a band from ottawa</h2>
+
+</div>
+
+</body>
+</html>

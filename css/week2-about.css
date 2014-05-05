@@ -1,0 +1,160 @@
+
+/*BOX-SIZING*/
+
+* {
+	box-sizing: border-box; 
+	margin: 0 auto;
+}
+
+/* CLEARFIX */
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+    }
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+
+/*FONTS */
+  
+@font-face {
+	font-family: 'news706';
+	src: url(fonts/news_706.ttf);
+	}
+@font-face {
+	font-family: 'comppro-webfont';
+	src: url(fonts/comppro-webfont.ttf);
+	font-weight:bold;
+	}
+
+p {
+	font-family: 'news706';
+	font-size: 1em;
+	color: #fff;
+}
+
+h2 {
+	font-family: 'comppro-webfont', Helvetica;
+	font-size: 4.5em;
+	color: #fff;
+	text-align: center;
+	padding: 5% 0;
+}
+
+/*NAV BAR*/
+.navBar {
+	background-color: rgba(255, 255, 255, 0.25);
+	padding: 2%;
+	margin-top: 0;
+	width: 100%;
+	position: fixed;
+	top: 0;
+}
+
+.navBar li {
+	display: inline;
+	padding: 0 5%;
+}
+
+.navBar li a {
+	font-family: 'news706', sans-serif;
+	color: #fff;
+	font-size: 1.35rem;
+	border-bottom: 1px solid #fff;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.navBar li a:hover {
+	color: #C20027;
+	border-bottom: 1px solid #C20027;
+}
+
+/*CONTENT*/
+.header {
+	background-image: url(images/ORLloon.jpg);
+	background-attachment: fixed;
+	/*background-position: center;*/
+	top: 0;
+	background-repeat: no-repeat;
+	margin: 0 auto;
+	padding: 75px 0 450px 0;
+}
+
+/*ABOUT: INTRO*/
+.about {
+	width: 80%;
+	margin: 0 auto;
+}
+
+.about p {
+	padding: 4% 2%;
+	color: #333;
+	font-family: 'comppro-webfont', sans-serif;
+	font-size: 2em;
+	line-height: 2em;
+}
+
+.about p::first-line {
+	font-size: 1.15em;
+	color: #C20027;
+}
+
+/*ABOUT2: BIO*/
+
+.bio {
+	width: 80%;
+	margin: 0 auto;
+
+	padding-bottom: 5%;
+}
+
+.bio p {
+	width: 50%;
+	float: left;
+	margin: 0 auto;
+	padding: 0 2% 2% 0;
+	color: #333;
+	font-size: 1.25em;
+	line-height: 2em;
+}
+
+.media {
+	box-sizing: border-box; 
+	width: 80%;
+	margin: 0 auto;
+}
+
+.media img {
+	width: 100%;
+	padding: 0.5% 0;
+	border-bottom: 1px solid #C20027;
+}
+
+.mediaSmall img {
+	box-sizing: border-box; 
+	width: 33.3%;
+	float: left;
+}
+
+.media img:hover {
+	opacity: 0.90;
+}
+
+.footer {
+	width: 100%;
+	background-color: #C20027;
+	position: fixed;
+	bottom: 0;
+}
+
+.footer p {
+	padding: 0 3%;
+	font-size: 0.75em;
+	color: #fff;
+}
